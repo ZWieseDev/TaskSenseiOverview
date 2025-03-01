@@ -145,7 +145,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ##  License
 
-This project is licensed under the [License](doc/license).
+This project is licensed under the [License](LICENSE).
 
 ---
 
