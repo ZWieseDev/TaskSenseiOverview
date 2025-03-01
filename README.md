@@ -1,10 +1,10 @@
 # TaskSensei - Automation & AI-Powered Business Efficiency
 
-## 🚀 Overview
+##  Overview
 
 TaskSensei is an AI-driven automation platform designed to streamline business processes, enhance productivity, and integrate seamlessly with cloud-based services. This project leverages **AWS Lambda, Cognito, WebSockets, DynamoDB, and Stripe** to provide a **secure authentication system, AI-powered chatbot interactions, automated file management, and seamless payment handling.**
 
-## 🌟 Key Features
+##  Key Features
 
 - **Secure Authentication** using **PKCE Challenge Flow & AWS Cognito**
 - **Real-time AI Chatbot** with **WebSockets & Vector Database for Context Retention**
@@ -15,7 +15,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 🏗 Architecture Diagram
+##  Architecture Diagram
 
 
 
@@ -29,7 +29,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 🔑 Authentication Flow (PKCE)
+##  Authentication Flow (PKCE)
 
 ### **Step-by-Step Process:**
 
@@ -47,7 +47,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### **Authentication**
 
@@ -87,7 +87,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 🤖 AI Chatbot - WebSocket Flow
+##  AI Chatbot - WebSocket Flow
 
 ### **How It Works:**
 
@@ -103,7 +103,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 📂 File Storage & User Data
+##  File Storage & User Data
 
 ### **User Files Handling:**
 
@@ -118,7 +118,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 💰 Payment & Membership System (Stripe)
+##  Payment & Membership System (Stripe)
 
 ### **How Payments Work:**
 
@@ -134,33 +134,15 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ---
 
-## 🚀 Deployment
 
-### **Deploying AWS Lambda Functions**
 
-```sh
-aws lambda update-function-code --function-name TaskSenseiAuth --zip-file fileb://lambda.zip
-```
+##  Future Enhancements
 
-### **Deploying Cognito User Pool**
-
-Use **Terraform** or manually configure via AWS Console.
-
-### **Deploying WebSocket API Gateway**
-
-1. **Create WebSocket API in AWS API Gateway**
-2. **Link WebSocket to Lambda Handler**
-3. **Deploy API & Test WebSocket Connection**
+✅ **Add OAuth2 Login with Google & Microsoft** ✅ **Enhance AI Chatbot with Dynamic Context Awareness** ✅ **Enhance Dashboard**  ✅ **Creat Price Sheet** ✅ **Create Task Ninjas and Synergy**
 
 ---
 
-## 🔮 Future Enhancements
-
-✅ **Add OAuth2 Login with Google & Microsoft** ✅ **Enhance AI Chatbot with Dynamic Context Awareness** ✅ **Introduce Subscription-Based Payments** ✅ **Automate Deployment with Terraform**
-
----
-
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**.
 
