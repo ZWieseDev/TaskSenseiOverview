@@ -17,6 +17,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ##  Architecture Diagram
 
+![Task Sensei AWS Architecture](docs/TaskSensei-AWS-Diagram.png)
 
 
 ### **System Components:**
@@ -144,7 +145,7 @@ TaskSensei is an AI-driven automation platform designed to streamline business p
 
 ##  License
 
-This project is licensed under the **License**.
+This project is licensed under the [License].
 
 ---
 
